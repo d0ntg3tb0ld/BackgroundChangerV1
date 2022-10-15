@@ -1,0 +1,93 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+/* .hidden{
+	display: none;
+} */
+section.board{
+  width: 35%;
+  border: solid black;
+  background-color: white;
+  margin-left: 35%;
+  margin-top: 20%;
+  align-items: center;
+  padding-left: 5%;
+  opacity: 70%;
+  
+}
+h1{
+  font-size: 40px;
+  color: solid black;
+  font-family: fantasy;
+  fill: red;
+  border: white;
+}
+section.hideme{
+  display: none;
+}
+section.buttons{
+  float: right;
+  margin: 0 0 10% 0;
+}
+ul{
+  width: 100px;
+  height: 330px;
+  border: 3px solid black;
+  list-style: none;
+  padding: 0;
+  float: right;
+}
+li{
+  width: 94px;
+  height: 65px;
+}
+li img{
+  width: 94px;
+  height: 65px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#purple{
+  background: rgba(241,63,247,1);
+}
+#green{
+  background: rgba(0,253,81,1);
+}
+#blue{
+  background: rgba(0,254,255);
+}
+#yellow{
+  background: yellow;
+}
+#mint{
+  background: mediumaquamarine;
+}
+#lavender{
+  background: lavender;
+}
+#yellow{
+  background: yellow;
+}
+#gray{
+  background: gray;
+}
+#orange{
+  background: orange;
+}
+#obsidian{
+  background: magenta;
+}
+#purplerain{
+  background: purple;
